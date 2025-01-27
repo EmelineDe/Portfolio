@@ -1,0 +1,124 @@
+{
+  "basics": {
+    "name": "Emeline Delobel",
+    "nickname": "Emeline.D",
+    "label": "Développeuse Full Stack",
+    "email": "",
+    "phone": "",
+    "picture": "ED_Logo.png",
+    "x_title": "Hello, je suis",
+    "job1": "Développeuse",
+    "job2": "Full Stack Freelance",
+    "description": "Passionnée par le développement web. Spécialisée dans la création d'applications robustes et modernes avec Vue.js et Node.js, mon objectif est de fournir des solutions efficaces et personnalisées qui répondent aux besoins uniques de chaque projet.",
+    "summary": "based in Lille, France.",
+    "keywords": "personal,website,portfolio,template,kit,emeline,delobel,webdev,web,developer,france,react,github,linkedin,google,gitlab,material,design,ui,webapp,markdown",
+    "url": "https://portfolio-emelinedelobel.fr",
+    "location": {
+      "address": "XX XXXXXstreet",
+      "postalCode": "XXXXX",
+      "city": "Lille",
+      "country": "France",
+      "countryCode": "FR",
+      "region": "Haut-De-France"
+    },
+    "profiles": [
+      {
+        "network": "LinkedIn",
+        "username": "emeline",
+        "url": "https://linkedin.com/in/emeline-d-6915a417a",
+        "x_icon": "fab fa-linkedin-in"
+      },
+      {
+        "network": "GitHub",
+        "username": "EmelineDe",
+        "url": "https://github.com/EmelineDe",
+        "x_icon": "fab fa-github"
+      },
+      {
+        "network": "GitLab",
+        "username": "",
+        "url": "",
+        "x_icon": "fab fa-gitlab"
+      }
+    ]
+  },
+  "work": [
+    {
+      "company": "Company",
+      "position": "President",
+      "website": "http://company.com",
+      "startDate": "2013-01-01",
+      "endDate": "2014-01-01",
+      "summary": "Description...",
+      "highlights": ["Started the company"]
+    }
+  ],
+  "volunteer": [
+    {
+      "organization": "Organization",
+      "position": "Volunteer",
+      "website": "http://organization.com/",
+      "startDate": "2012-01-01",
+      "endDate": "2013-01-01",
+      "summary": "Description...",
+      "highlights": ["Awarded 'Volunteer of the Month'"]
+    }
+  ],
+  "education": [
+    {
+      "institution": "University",
+      "area": "Software Development",
+      "studyType": "Bachelor",
+      "startDate": "2011-01-01",
+      "endDate": "2013-01-01",
+      "gpa": "4.0",
+      "courses": ["DB1101 - Basic SQL"]
+    }
+  ],
+  "awards": [
+    {
+      "title": "Award",
+      "date": "2014-11-01",
+      "awarder": "Company",
+      "summary": "There is no spoon."
+    }
+  ],
+  "publications": [
+    {
+      "name": "Publication",
+      "publisher": "Company",
+      "releaseDate": "2014-10-01",
+      "website": "http://publication.com",
+      "summary": "Description..."
+    }
+  ],
+  "skills": [
+    {
+      "name": "Web Development",
+      "level": "Master",
+      "keywords": ["HTML", "CSS", "Javascript"]
+    }
+  ],
+  "languages": [
+    {
+      "language": "Anglais",
+      "fluency": "B2"
+    },
+    {
+      "language": "Français",
+      "fluency": "Langue Natale"
+    }
+  ],
+  "interests": [
+    {
+      "name": "Wildlife",
+      "keywords": ["Unicorns"]
+    }
+  ],
+  "references": [
+    {
+      "name": "Jane Doe",
+      "reference": "Reference..."
+    }
+  ]
+}
