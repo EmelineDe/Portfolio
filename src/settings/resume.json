@@ -77,18 +77,18 @@
   ],
   "awards": [
     {
-      "title": "Award",
-      "date": "2014-11-01",
-      "awarder": "Company",
-      "summary": "There is no spoon."
+      "title": "",
+      "date": "",
+      "awarder": "",
+      "summary": ""
     }
   ],
   "publications": [
     {
-      "name": "Publication",
-      "publisher": "Company",
-      "releaseDate": "2014-10-01",
-      "website": "http://publication.com",
+      "name": "",
+      "publisher": "",
+      "releaseDate": "",
+      "website": "",
       "summary": "Description..."
     }
   ],

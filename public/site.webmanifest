@@ -1,5 +1,5 @@
 {
-  "name": "Emeline.D",
+  "name": "Emeline Delobel - Portfolio",
   "short_name": "emeline.delobel.app",
   "icons": [
     {
@@ -18,8 +18,10 @@
       "type": "image/png"
     }
   ],
-  "start_url": ".",
+  "start_url": "/",
   "display": "standalone",
   "theme_color": "#00bfbf",
-  "background_color": "#171c28"
+  "background_color": "#171c28",
+  "description": "Découvrez le portfolio d'Emeline Delobel, développeuse full-stack spécialisée en React et Node.js.",
+  "scope": "/"
 }

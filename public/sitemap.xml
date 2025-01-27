@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+
+<!-- Page d'accueil -->
+<url>
+  <loc>https://portfolio-emelinedelobel.fr/</loc>
+  <lastmod>2025-01-27T15:13:55+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+
+<!-- Section À propos -->
+<url>
+  <loc>https://portfolio-emelinedelobel.fr/#about</loc>
+  <lastmod>2025-01-27T15:13:55+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+
+<!-- Section Compétences -->
+<url>
+  <loc>https://portfolio-emelinedelobel.fr/#skills</loc>
+  <lastmod>2025-01-27T15:13:55+00:00</lastmod>
+  <priority>0.75</priority>
+</url>
+
+<!-- Section Experiences -->
+<url>
+  <loc>https://portfolio-emelinedelobel.fr/#works</loc>
+  <lastmod>2025-01-27T15:13:55+00:00</lastmod>
+  <priority>0.70</priority>
+</url>
+
+<!-- Section Projets -->
+<url>
+  <loc>https://portfolio-emelinedelobel.fr/#courses</loc>
+  <lastmod>2025-01-27T15:13:55+00:00</lastmod>
+  <priority>0.85</priority>
+</url>
+
+
+
+
+
+<!-- Section Contact -->
+<url>
+  <loc>https://portfolio-emelinedelobel.fr/#contact</loc>
+  <lastmod>2025-01-27T15:13:55+00:00</lastmod>
+  <priority>0.90</priority>
+</url>
+
+</urlset>
