@@ -23,6 +23,5 @@ yarn-debug.log*
 yarn-error.log*
 
 # Fichiers spécifiques sensibles
-/src/settings/resume.json
 /src/assets/profile.png
 /src/assets/Emeline_Delobel_Resume.pdf
