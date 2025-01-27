@@ -1,34 +1,28 @@
-# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
-
-# dependencies
+# Node.js dependencies
 /node_modules
 /.pnp
 .pnp.js
 
-# testing
+# Testing outputs
 /coverage
 
-# production
+# Production builds
 /build
 /docs
 /dist
 
-# misc
-.DS_Store
-.env.local
-.env.development.local
-.env.test.local
-.env.production.local
-/setting/resume.json
-/assets/profile.png
-/assets/Emeline_delobel_Resume.pdf
+# Environment variables
+.env*
+!.env.example  # Si tu souhaites conserver un exemple de fichier d'environnement
 
+# Miscellaneous files
+.DS_Store
+.eslintcache
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 
-.env
-
-package-lock.json
-
-.eslintcache
+# Fichiers spécifiques sensibles
+/src/settings/resume.json
+/src/assets/profile.png
+/src/assets/Emeline_Delobel_Resume.pdf
