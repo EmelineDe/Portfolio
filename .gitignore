@@ -22,6 +22,5 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 
-# Fichiers spécifiques sensibles
-/src/assets/profile.png
+
 
