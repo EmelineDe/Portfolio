@@ -9,7 +9,7 @@ function Footer() {
           rel="noopener noreferrer"
           className="text-[#ec704c] hover:text-[#ec704c] lg:text-[#42bcbc] lg:hover:text-[#ec704c]"
         >
-          Emeline Delobel - 2024
+          Emeline Delobel - 2025
         </a>
       </p>
     </div>

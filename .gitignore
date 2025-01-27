@@ -19,6 +19,9 @@
 .env.development.local
 .env.test.local
 .env.production.local
+/setting/resume.json
+/assets/profile.png
+/assets/Emeline_delobel_Resume.pdf
 
 npm-debug.log*
 yarn-debug.log*
