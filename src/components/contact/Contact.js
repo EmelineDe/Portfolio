@@ -164,7 +164,7 @@ export const Contact = () => {
         <div className="flex items-center">
           <span className="w-24 h-[2px] bg-[#42bcbc] dark:bg-[#ec704c]"></span>
           <span className="w-fit text-black p-2 px-5 text-xl rounded-md dark:bg-transparent dark:text-white">
-            Contact
+            <h1>Contact</h1>
           </span>
           <span className="w-24 h-[2px] bg-[#42bcbc] dark:bg-[#ec704c]"></span>
         </div>
