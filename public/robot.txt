@@ -1,6 +1,0 @@
-# Autorise tous les moteurs de recherche à explorer le site
-User-agent: *
-Allow: /
-
-# Indique l'emplacement du sitemap
-Sitemap: https://portfolio-emelinedelobel.fr/sitemap.xml
