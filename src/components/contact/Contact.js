@@ -33,13 +33,23 @@ export const Contact = () => {
   const [isSending, setIsSending] = useState(false);
 
   const [isCooldown, setIsCooldown] = useState(false);
+  const [name, setName] = useState("");
+
+  const capitalizeName = (str) => {
+    return str
+      .toLowerCase()
+      .split(" ")
+      .map((word) => word.charAt(0).toUpperCase() + word.slice(1).toLowerCase())
+      .join(" ");
+  };
 
   const sendEmail = (e) => {
     e.preventDefault();
     e.persist();
 
     const formElements = form.current.elements;
-    const name = formElements.name.value.trim();
+    const formattedName = name.trim();
+    setName(formattedName);
     const email = formElements.email.value.trim();
     const message = formElements.message.value.trim();
     const messagePattern = /^[a-zA-Z0-9À-ÿ\s.,!?'"()\-_:;]+$/;
@@ -132,6 +142,7 @@ export const Contact = () => {
           timer: 1500,
         });
         e.target.reset();
+        setName("");
         setIsSending(false);
       })
       .catch((error) => {
@@ -189,6 +200,8 @@ export const Contact = () => {
                 size="small"
                 variant="filled"
                 name="name"
+                value={name}
+                onChange={(e) => setName(capitalizeName(e.target.value))}
                 className={classes.formfield}
               />
               <TextField
