@@ -18,6 +18,12 @@ const useStyles = makeStyles((theme) => ({
   icon: {
     fontSize: "1.25rem",
   },
+  tooltipStyle: {
+    backgroundColor:
+      theme.palette.type === "dark"
+        ? theme.palette.secondary.main
+        : theme.palette.primary.main,
+  },
 }));
 
 export const SocialIcons = () => {
@@ -36,6 +42,7 @@ export const SocialIcons = () => {
         title={socialItem.username}
         placement="left"
         TransitionComponent={Zoom}
+        classes={{ tooltip: classes.tooltipStyle }}
       >
         <IconButton
           color="inherit"
