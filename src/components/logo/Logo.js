@@ -5,7 +5,10 @@ const useStyles = makeStyles((theme) => ({
   svgHover: {
     fill: theme.palette.foreground.default,
     "&:hover": {
-      fill: theme.palette.primary.main,
+      fill:
+        theme.palette.type === "dark"
+          ? theme.palette.secondary.main
+          : theme.palette.primary.main,
     },
     transition: "all 0.5s ease",
   },
