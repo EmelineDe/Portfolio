@@ -228,7 +228,7 @@ export const Contact = () => {
               <button
                 type="submit"
                 value="Send"
-                className="submit-btn dark:bg-[#ec704c] dark:hover:bg-[#42bcbc]"
+                className="submit-btn bg-[#42bcbc] hover:bg-[#ec704c] dark:bg-[#ec704c] dark:hover:bg-[#42bcbc]"
               >
                 <i className="fas fa-terminal"></i>
                 <Typography component="span"> Envoyer </Typography>
