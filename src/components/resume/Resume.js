@@ -11,7 +11,10 @@ const useStyles = makeStyles((theme) => ({
     bottom: theme.spacing(1.125),
     left: theme.spacing(6),
     "&:hover": {
-      color: theme.palette.primary.main,
+      color:
+        theme.palette.type === "dark"
+          ? theme.palette.secondary.main
+          : theme.palette.primary.main,
     },
     transition: "all 0.5s ease",
     display: "flex",

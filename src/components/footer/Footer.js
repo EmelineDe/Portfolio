@@ -7,7 +7,7 @@ function Footer() {
           href="https://linkedin.com/in/emeline-d-6915a417a"
           target="_blank"
           rel="noopener noreferrer"
-          className="text-[#ec704c] hover:text-[#ec704c] lg:text-[#42bcbc] lg:hover:text-[#ec704c]"
+          className="text-[#ec704c] hover:text-[#ec704c] lg:text-[#42bcbc] lg:hover:text-[#ec704c]  dark:hover:text-[#42bcbc] lg:text-[#ec704c] lg:hover:text-[#42bcbc]"
         >
           Emeline Delobel - 2025
         </a>
