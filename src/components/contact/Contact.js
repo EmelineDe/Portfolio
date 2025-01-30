@@ -183,15 +183,6 @@ export const Contact = () => {
       <Container component="main" className={classes.main} maxWidth="md">
         <div className="contact">
           <div className="_form_wrapper">
-            {isSending && (
-              <div className="loading-spinner flex justify-center items-center mb-5">
-                <span className="spinner-border animate-spin inline-block w-6 h-6 border-4 rounded-full text-[#42bcbc] dark:text-[#ec704c]"></span>
-                <span className="ml-2 text-black dark:text-white">
-                  Envoi en cours...
-                </span>
-              </div>
-            )}
-
             <form ref={form} onSubmit={sendEmail} className={classes.form}>
               <TextField
                 id="outlined-name-input"
@@ -225,14 +216,24 @@ export const Contact = () => {
                 className={classes.formfield}
               />
               <input type="hidden" name="cleanMessage" value="" />
-              <button
-                type="submit"
-                value="Send"
-                className="submit-btn bg-[#42bcbc] hover:bg-[#ec704c] dark:bg-[#ec704c] dark:hover:bg-[#42bcbc]"
-              >
-                <i className="fas fa-terminal"></i>
-                <Typography component="span"> Envoyer </Typography>
-              </button>
+              <div className="flex">
+                <button
+                  type="submit"
+                  value="Send"
+                  className="submit-btn bg-[#42bcbc] hover:bg-[#ec704c] dark:bg-[#ec704c] dark:hover:bg-[#42bcbc]"
+                >
+                  <i className="fas fa-terminal"></i>
+                  <Typography component="span"> Envoyer </Typography>
+                </button>
+                {isSending && (
+                  <div className="loading-spinner mt-1">
+                    <span className="spinner-border animate-spin inline-block w-6 h-6 border-4 rounded-full text-black dark:text-white"></span>
+                    <span className="ml-2 text-black dark:text-white">
+                      Envoi en cours...
+                    </span>
+                  </div>
+                )}
+              </div>
             </form>
           </div>
         </div>
