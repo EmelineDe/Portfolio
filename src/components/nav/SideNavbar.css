@@ -1,4 +1,4 @@
-nav {
+.navDesktop {
   position: fixed;
   display: flex;
   flex-direction: row-reverse;
@@ -6,16 +6,16 @@ nav {
   top: 8%;
   left: -14rem;
 }
-nav a {
+.navDesktop a {
   margin-right: 20px;
   text-decoration: none;
   color: #575757;
 }
-nav a:hover {
+.navDesktop a:hover {
   margin-right: 20px;
   text-decoration: none;
   color: #ec704c;
 }
-nav a.active {
+.navDesktop a.active {
   color: #ec704c;
 }
