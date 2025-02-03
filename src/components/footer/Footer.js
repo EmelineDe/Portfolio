@@ -1,6 +1,6 @@
 function Footer() {
   return (
-    <div className="flex flex-col p-0 md:p-4 lg:p-4  md:flex-row items-center justify-center">
+    <div className="flex flex-col p-0 md:pt-6 lg:p-4 md:mt-6 items-center justify-center">
       <p className="text-sm">
         © Developer Portfolio by{"  "}
         <a

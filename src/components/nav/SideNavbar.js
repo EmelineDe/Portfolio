@@ -24,15 +24,6 @@ export const SideNavbar = () => {
     return () => window.removeEventListener("resize", handleResize);
   }, []);
 
-  const navLinks = [
-    { href: "#", label: "Accueil" },
-    { href: "#about", label: "À propos" },
-    { href: "#skills", label: "Compétences" },
-    { href: "#works", label: "Projets" },
-    { href: "#courses", label: "Formations" },
-    { href: "#contact", label: "Contact" },
-  ];
-
   return (
     <>
       {isDesktop ? (
@@ -105,7 +96,7 @@ export const SideNavbar = () => {
           </a>
         </nav>
       ) : (
-        <nav className="fixed top-0 left-0 w-full z-50 bg-white/70 backdrop-blur-lg shadow-md">
+        <nav className="fixed top-0 left-0 w-full z-50 bg-white/70 backdrop-blur-lg shadow-md ml-2">
           {/* Bouton Hamburger (caché si le menu est ouvert) */}
           <button
             onClick={toggleDrawer}
@@ -116,7 +107,7 @@ export const SideNavbar = () => {
             aria-controls="navbar-hamburger"
             aria-expanded={mobileOpen}
           >
-            <span className="sr-only">Open main menu</span>
+            <span className="sr-only">Ouvrir le menu</span>
             <svg
               className="w-6 h-6"
               aria-hidden="true"

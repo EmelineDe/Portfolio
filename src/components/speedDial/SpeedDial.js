@@ -7,7 +7,8 @@ const useStyles = makeStyles((theme) => ({
   speedDial: {
     position: "absolute",
     top: theme.spacing(2),
-    right: theme.spacing(6),
+    right: theme.spacing(12),
+    zIndex: "0",
   },
   iconColor: {
     color: theme.palette.foreground.default,

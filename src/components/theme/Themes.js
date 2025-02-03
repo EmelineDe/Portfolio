@@ -67,7 +67,7 @@ export const LightTheme = responsiveFontSizes(
         root: {
           width: "2.5rem",
           height: "2.5rem",
-          fontSize: "1.25rem",
+          fontSize: "1.1rem",
         },
         primary: {
           color: black,
