@@ -19,3 +19,15 @@
 .navDesktop a.active {
   color: #ec704c;
 }
+
+.navMobile a{
+ color: #575757;
+}
+
+.navMobile a:hover{
+ color:#ec704c;;
+}
+
+.navMobile a.active {
+  color: #ec704c;
+}

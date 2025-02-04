@@ -7,6 +7,10 @@ import { ResumeIcon } from "../content/ResumeButton";
 
 const useStyles = makeStyles((theme) => ({
   footerText: {
+    "@media (max-width: 768px)": {
+      position: "initial",
+      marginLeft: "1rem",
+    },
     position: "fixed",
     bottom: theme.spacing(1.125),
     left: theme.spacing(6),

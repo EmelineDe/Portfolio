@@ -96,12 +96,12 @@ export const SideNavbar = () => {
           </a>
         </nav>
       ) : (
-        <nav className="fixed top-0 left-0 w-full z-50 bg-white/70 backdrop-blur-lg shadow-md ml-2">
-          {/* Bouton Hamburger (caché si le menu est ouvert) */}
+        <nav className="fixed top-0 left-0 w-full z-50 bg-white/70 backdrop-blur-lg shadow-md ml-2 navMobile">
+          {/* Bouton Hamburger */}
           <button
             onClick={toggleDrawer}
             type="button"
-            className={`absolute top-6 right-6  ${
+            className={`fixed top-6 right-6  ${
               mobileOpen ? "hidden" : "block"
             }`}
             aria-controls="navbar-hamburger"
@@ -127,19 +127,19 @@ export const SideNavbar = () => {
 
           {/* Menu Mobile */}
           <div
-            className={`fixed top-0 right-0 w-[300px] h-screen bg-white/70 backdrop-blur-lg p-5 shadow-lg transition-transform duration-300 ease-in-out ${
+            className={`fixed top-0 right-0 w-[300px] h-screen  bg-white/90 backdrop-blur-lg p-5 shadow-lg dark:bg-black/90 transition-transform duration-300 ease-in-out ${
               mobileOpen ? "translate-x-0" : "translate-x-full"
             }`}
           >
             {/* Bouton de fermeture "✖" */}
             <button
               onClick={toggleDrawer}
-              className="absolute top-4 right-6 text-3xl text-white"
+              className="absolute top-4 right-6 text-2xl text-black dark:text-white"
             >
               ✖
             </button>
 
-            <ul className="flex flex-col font-medium mt-10 space-y-4">
+            <ul className="flex flex-col mt-10 space-y-10 tracking-wide">
               {[
                 { href: "#", label: "Accueil" },
                 { href: "#about", label: "À propos" },
@@ -155,7 +155,7 @@ export const SideNavbar = () => {
                       setActiveNav(link.href);
                       toggleDrawer();
                     }}
-                    className={`${
+                    className={`text-2xl font-bold ${
                       activeNav === link.href
                         ? "active dark:text-[#ec704c]"
                         : "dark:text-white"
