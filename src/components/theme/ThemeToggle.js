@@ -8,7 +8,7 @@ const useStyles = makeStyles((theme) => ({
   iconButton: {
     "@media (max-width: 768px)": {
       position: "absolute",
-      bottom: "0.5rem",
+      bottom: "1rem",
       right: "1rem",
     },
     position: "fixed",
