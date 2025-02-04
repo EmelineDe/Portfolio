@@ -13,12 +13,12 @@ const useStyles = makeStyles((theme) => ({
   },
   heading: {
     marginLeft: theme.spacing(35),
-    "@media (max-width: 768px)": {
-      marginLeft: theme.spacing(2),
+    "@media (max-width: 1024px)": {
+      marginLeft: theme.spacing(4),
     },
   },
   jobs: {
-    "@media (max-width: 768px)": {
+    "@media (max-width: 1024px)": {
       fontSize: "3rem",
     },
   },

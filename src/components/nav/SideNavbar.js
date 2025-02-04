@@ -9,13 +9,13 @@ import "./SideNavbar.css";
 export const SideNavbar = () => {
   const [activeNav, setActiveNav] = useState("#");
   const [mobileOpen, setMobileOpen] = useState(false);
-  const [isDesktop, setIsDesktop] = useState(window.innerWidth >= 768);
+  const [isDesktop, setIsDesktop] = useState(window.innerWidth >= 1024);
 
   const toggleDrawer = () => setMobileOpen(!mobileOpen);
   useEffect(() => {
     const handleResize = () => {
-      setIsDesktop(window.innerWidth >= 768);
-      if (window.innerWidth >= 768) {
+      setIsDesktop(window.innerWidth >= 1024);
+      if (window.innerWidth >= 1024) {
         setMobileOpen(false);
       }
     };

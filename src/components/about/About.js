@@ -14,6 +14,7 @@ const useStyles = makeStyles((theme) => ({
     maxWidth: "100vw",
     marginTop: "3em",
     marginBottom: "auto",
+    "@media (max-width: 1024px)": {},
   },
 }));
 
