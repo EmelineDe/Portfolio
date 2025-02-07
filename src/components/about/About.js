@@ -41,11 +41,11 @@ export const About = () => {
     <section id="about">
       <div className="flex justify-center my-5 lg:py-8">
         <div className="flex items-center">
-          <span className="w-24 h-[2px] bg-[#42bcbc] dark:bg-[#ec704c]"></span>
+          <span className="w-8 sm:w-24 h-[2px] bg-[#42bcbc] dark:bg-[#ec704c]"></span>
           <span className="w-fit text-black p-2 px-5 text-xl rounded-md dark:bg-transparent dark:text-white">
             <h1>A Propos</h1>
           </span>
-          <span className="w-24 h-[2px] bg-[#42bcbc] dark:bg-[#ec704c]"></span>
+          <span className="w-8 sm:w-24 h-[2px] bg-[#42bcbc] dark:bg-[#ec704c]"></span>
         </div>
       </div>
       <Container component="main" className={classes.main} maxWidth="md">

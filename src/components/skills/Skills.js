@@ -9,17 +9,15 @@ function Skills() {
   return (
     <div
       id="skills"
-      className="relative z-50  my-12 lg:my-24 pl-[9rem] pr-[9rem]"
+      className="relative z-50 my-12 lg:my-24 pl-4 pr-4 sm:pl-[6rem] sm:pr-[6rem] md:pl-[9rem] md:pr-[9rem] lg:pl-[9rem] lg:pr-[9rem]"
     >
-      {/* <div className="w-[100px] h-[100px] bg-[#42bcbc] rounded-full absolute top-6 left-[42%] translate-x-1/2 filter blur-3xl  opacity-20"></div> */}
-
       <div className="flex justify-center my-5 lg:py-8">
         <div className="flex  items-center">
-          <span className="w-24 h-[2px] bg-[#42bcbc] dark:bg-[#ec704c]"></span>
+          <span className="w-8 sm:w-24 h-[2px] bg-[#42bcbc] dark:bg-[#ec704c]"></span>
           <span className=" w-fit text-Black p-2 px-5 text-xl rounded-md dark:bg-transparent dark:text-white">
             <h1>Compétences</h1>
           </span>
-          <span className="w-24 h-[2px] bg-[#42bcbc] dark:bg-[#ec704c]"></span>
+          <span className="w-8 sm:w-24 h-[2px] bg-[#42bcbc] dark:bg-[#ec704c]"></span>
         </div>
       </div>
 
