@@ -73,7 +73,7 @@ export const About = () => {
             </Typography>
             <p className="aboutme text-black dark:text-white">{aboutme}</p>
             <div class="mt-4 mb-4">
-              <ul class="space-y-2 text-black dark:text-white">
+              <ul class="space-y-2 text-start text-black dark:text-white">
                 <li>
                   ✔️{" "}
                   <strong className="dark:text-[#ec704c]">
