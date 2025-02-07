@@ -20,9 +20,10 @@ const useStyles = makeStyles((theme) => ({
 
 export const About = () => {
   const classes = useStyles();
-  const greetings = `Hello, je suis ${FirstName}.${LastName},développeuse full stack freelance.`;
-  const aboutme =
-    "Passionnée par le développement web. Spécialisée dans la création d'applications robustes et modernes avec Vue.js et Node.js, mon objectif est de fournir des solutions efficaces et personnalisées qui répondent aux besoins uniques de chaque projet.";
+  const greetings = `Hello,je suis ${FirstName}.${LastName},Software Engineer Full-Stack & DevOps`;
+  const aboutme = `J’accompagne les entreprises et entrepreneurs dans la conception et l’optimisation 
+    de solutions numériques modernes, performantes et évolutives. Mon expertise en Full-Stack et DevOps 
+    me permet de créer des applications robustes, adaptées aux besoins spécifiques de chaque projet.`;
   const about = useState({
     id: 1,
     skills: [
@@ -31,9 +32,12 @@ export const About = () => {
       "ViteJs",
       "Typescript",
       "Docker",
+      "GitHub Actions",
       "Postgres",
       "TypeORM",
       "NodeJS",
+      "NestJS",
+      "Express",
       "Jest",
     ],
   });
@@ -67,7 +71,46 @@ export const About = () => {
             >
               <TextDecrypt text={`${greetings}`} />
             </Typography>
-            <p className="aboutme">{aboutme}</p>
+            <p className="aboutme text-justify text-black dark:text-white">
+              {aboutme}
+            </p>
+            <div class="mt-4 mb-4">
+              <ul class="space-y-2 text-start text-black dark:text-white">
+                <li>
+                  ✔️{" "}
+                  <strong className="dark:text-[#ec704c]">
+                    Développement Full-Stack :
+                  </strong>{" "}
+                  Vue.js & Node.js
+                </li>
+                <li>
+                  ✔️{" "}
+                  <strong className="dark:text-[#ec704c]">
+                    Optimisation DevOps :
+                  </strong>{" "}
+                  Docker, CI/CD, Automatisation
+                </li>
+                <li>
+                  ✔️{" "}
+                  <strong className="dark:text-[#ec704c]">
+                    Performance & Scalabilité :
+                  </strong>{" "}
+                  Applications modernes et robustes
+                </li>
+                <li>
+                  ✔️{" "}
+                  <strong className="dark:text-[#ec704c]">
+                    Approche sur-mesure :
+                  </strong>{" "}
+                  Solutions adaptées aux besoins clients
+                </li>
+              </ul>
+            </div>
+            <p class="text-black dark:text-white">
+              Mon objectif est de concevoir des applications fiables et
+              sur-mesure, en combinant excellence technique et approche agile
+              pour garantir performance et pérennité.
+            </p>
           </div>
         </div>
         <Container component="main" className={classes.main} maxWidth="md">
@@ -179,8 +222,11 @@ export const About = () => {
                         </span>
                       </div>
                       <div>
-                        <span className="ml-4 lg:ml-8 mr-2 text-[#42bcbc]">
-                          hireable:
+                        <span className="ml-4 lg:ml-8 mr-2 text-black dark:text-[#42bcbc]">
+                          hireable
+                          <span className="text-black dark:text-[#ec704c]">
+                            {":"}
+                          </span>
                         </span>
                         <span className="text-[#ec704c]">function</span>
                         <span className="text-gray-400 dark:text-[#ec704c]">
@@ -229,6 +275,22 @@ export const About = () => {
                       </div>
                       <div>
                         <span className="text-gray-400 dark:text-[#ec704c]">{`};`}</span>
+                      </div>
+                      <br></br>
+                      <div>
+                        <span className="text-[#3a8bbb] dark:text-[#4FC3F7]">
+                          console.log
+                        </span>
+                        <span className="text-gray-400 dark:text-[#ec704c]">{`(`}</span>
+                        <span className="text-black dark:text-[#42bcbc]">
+                          coder
+                        </span>
+                        <span className="text-gray-400 dark:text-[#ec704c]">{`.`}</span>
+                        <span className="text-black dark:text-[#42bcbc]">
+                          hireable
+                        </span>
+                        <span className="text-gray-400 dark:text-[#ec704c]">{`());`}</span>
+                        <span className="text-[#757575] dark:text-[#90A4AE]">{` // true ✅`}</span>
                       </div>
                     </code>
                   </div>
