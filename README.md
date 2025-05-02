@@ -1,4 +1,4 @@
-# Personal Portfolio Website built with React v16
+# Personal Portfolio built with React v16
 
 [![Screenshot](/public/social-image.png?raw=true)](https://portfolio-emelinedelobel.fr)
 
