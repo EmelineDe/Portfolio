@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.7c95e1ba.css",
-    "main.js": "/static/js/main.1ac9ae19.js",
+    "main.js": "/static/js/main.db35cacc.js",
     "static/media/Emeline_Delobel_Resume.pdf": "/static/media/Emeline_Delobel_Resume.472fa3e82f73ef85d3be.pdf",
     "static/media/react-portfolio.png": "/static/media/react-portfolio.8c79e386db2213d15e44.png",
     "static/media/profile.png": "/static/media/profile.b2037e1f846076d23a19.png",
@@ -83,10 +83,10 @@
     "static/media/vue.svg": "/static/media/vue.47bdfb5a7a54d8ade2aa4c61d5148668.svg",
     "static/media/vuetifyjs.svg": "/static/media/vuetifyjs.8a22a3ec81ad62e97094feab6e7ee0fb.svg",
     "main.7c95e1ba.css.map": "/static/css/main.7c95e1ba.css.map",
-    "main.1ac9ae19.js.map": "/static/js/main.1ac9ae19.js.map"
+    "main.db35cacc.js.map": "/static/js/main.db35cacc.js.map"
   },
   "entrypoints": [
     "static/css/main.7c95e1ba.css",
-    "static/js/main.1ac9ae19.js"
+    "static/js/main.db35cacc.js"
   ]
 }
