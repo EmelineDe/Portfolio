@@ -8,7 +8,7 @@
   padding: 2em;
 }
 
-.submit-btn {
+.submit-btn, .project-btn{
   margin-right: 20px;
   text-decoration: none;
   color: #ffff;
@@ -21,6 +21,7 @@
   text-decoration: none;
   background-color: #ec704c;
 }
+
 
 .contact_msg {
   font-size: 4rem;

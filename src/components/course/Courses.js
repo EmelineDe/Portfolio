@@ -53,7 +53,7 @@ export const Courses = () => {
         </div>
       </div>
 
-      <Container component="main" className="max-w-6xl mx-auto ">
+      <Container component="main" className="max-w-6xl mx-auto">
         <div className="about flex flex-col lg:flex-row items-center justify-center">
           <div
             className="_img_wrapper flex-1 lg:w-1/3"

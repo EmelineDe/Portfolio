@@ -7,7 +7,7 @@ import { useState, useEffect } from "react";
 import "./SideNavbar.css";
 
 export const SideNavbar = () => {
-  const [activeNav, setActiveNav] = useState("#");
+  const [activeNav, setActiveNav] = useState(window.location.hash || "#");
   const [mobileOpen, setMobileOpen] = useState(false);
   const [isDesktop, setIsDesktop] = useState(window.innerWidth >= 1024);
 
