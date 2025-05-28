@@ -23,7 +23,7 @@ export const Courses = () => {
   const [courses, setCourses] = useState([
     {
       id: 1,
-      date: "2021 - 2013",
+      date: "2021 - 2023",
       title: `Master Experte en informatique et Système d’information`,
       school: "EPSI",
     },
@@ -35,7 +35,7 @@ export const Courses = () => {
     },
     {
       id: 3,
-      date: "2019 - 2021",
+      date: "2019 - 2020",
       title: `Développeur web et web mobile`,
       school: "AFPA",
     },
